@@ -24,6 +24,10 @@ class Client(object):
     PRIVATE_API_VERSION = 'v3'
     WITHDRAW_API_VERSION = 'v3'
 
+    print(API_URL)
+    print(WITHDRAW_API_URL)
+    print(WEBSITE_URL)
+
     SYMBOL_TYPE_SPOT = 'SPOT'
 
     ORDER_STATUS_NEW = 'NEW'
